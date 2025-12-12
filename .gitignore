@@ -1,5 +1,5 @@
-/wp-admin
-/wp-includes
+/wp-admin/
+/wp-includes/
 classic-editor.php
 index.php
 LICENSE.md
@@ -20,5 +20,3 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
-
-
