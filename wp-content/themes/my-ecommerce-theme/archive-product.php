@@ -6,20 +6,64 @@
 
 <!-- hero_section -->
 <div class="container">
-    <div class="content">
-        <h1>Super</h1>
-        <h2>Market</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
-            Quisquam, veniam, animi similique tempora perferendis <br>
-            distinctio ad nulla nesciunt ullam dolores maxime exercitationem <br>
-            natus repudiandae dicta minima facilis earum iure totam?
-        </p>
-        <button class="btn" onclick=>SHOW ME</button>
-    </div>
-    <div class="pic">
-        <img src="http://daehan-fresh-mart.test/wp-content/uploads/2025/12/photo_6170453367138749477_x-removebg-preview.png" alt="pic">
-    </div>
+   <div class="content">
+      <h2>Up to 20% offer!</h2>
+      <h4>Enjoy our bring offer of every day</h4>
+       
+      <button class="btn" onclick=>SHOP NOW</button>
+
+      <div class="pic_dicount"> 
+         <img src="" alt="">
+      </div>
+      <div class="organic-section">
+         <div class="organic-circle">
+            <p class="fresh">Fresh 100%</p>
+            <p class="organic">ORGANIC</p>
+         </div>
+      </div>
+
+      
+   </div>
+
+   <div class="pic_girl">
+        <img src="http://daehan-fresh-mart.test/wp-content/uploads/2025/12/photo_6172705166952435196_y-removebg-preview.png" alt="pic">
+   </div>
+   
+    
 </div>
+
+<!-- search_product -->
+<div class="search_product-">
+   <div class="search_product">
+      <form action="" class="contain">
+         <div class="input---seach">
+            <span>
+               <i class="fa-solid fa-magnifying-glass" style="color: #000000;">
+               </i>
+            </span>
+            <input type="search" placeholder="Search..." class="input---seach--">
+         </div>
+      </form>
+        <select name="" id="">
+        <option value="">Filter</option>
+        <option value="">top  price</option>
+        <option value="">low price</option>
+        <option value="">New</option>
+        <option value="">Old</option>
+      </select>
+   </div>
+  
+     
+
+
+
+</div>
+
+
+      
+
+   
+
 
 
 
@@ -310,15 +354,6 @@
 
 </div>
 
-
-
-    
-
-
-
-
-<h1>All Products</h1>
-<div class="products">
 <?php while(have_posts()): the_post(); $price=get_post_meta(get_the_ID(),'_price',true); ?>
 <div class="product">
 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>

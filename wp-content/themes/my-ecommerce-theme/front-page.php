@@ -13,7 +13,7 @@
             distinctio ad nulla nesciunt ullam dolores maxime exercitationem <br>
             natus repudiandae dicta minima facilis earum iure totam?
         </p>
-        <button class="btn" onclick=>SHOW ME</button>
+        <button class="btn" onclick=>SHOP NOW</button>
     </div>
     <div class="pic">
         <img src="http://daehan-fresh-mart.test/wp-content/uploads/2025/12/photo_6170453367138749477_x-removebg-preview.png" alt="pic">
@@ -250,9 +250,9 @@
     <section>
     <!--Awesome--farmers-->
     <div class="--Awesome--farmers--">
-        <h1 class="Awesome--farmers-text">Awesome farmers tea
+        <h2 class="Awesome--farmers-text">Awesome farmers tea
             here to help you
-        </h1>
+        </h2>
     </div>
     <!--sechtion-->
         <div class="section-Awesome--farmers-text">
@@ -302,7 +302,7 @@
     <!--why do they choose us-->
     <section>
         <div class="--Awesome--why--">
-            <h1 class="Awesome--why-text">Why do they choose us?</h1>
+            <h2 class="Awesome--why-text">Why do they choose us?</h2>
         </div>
         <div class="-box-condsider-">
 
@@ -310,7 +310,7 @@
 
                     <div class="box--consider--1">
                         <div class="box--h1--consider">
-                            <h1 class="h1--consider">Affordable Price</h1>
+                            <h2 class="h1--consider">Affordable Price</h2>
                         </div>
                         <div class="box--consider--text--">
                             <p class="p--consider">
@@ -321,7 +321,7 @@
 
                     <div class="box--consider--2">
                         <div class="box--h1--consider">
-                            <h1 class="h1--consider">Safety</h1>
+                            <h2 class="h1--consider">Safety</h2>
                         </div>
                         <div class="box--consider--text--">
                             <p class="p--consider">
@@ -332,7 +332,7 @@
 
                     <div class="box--consider--1">
                         <div class="box--h1--consider">
-                            <h1 class="h1--consider">Expert Agents</h1>
+                            <h2 class="h1--consider">Expert Agents</h2>
                         </div>
                         <div class="box--consider--text--">
                             <p class="p--consider">
@@ -342,6 +342,32 @@
                     </div>
 
                 </div>
+
+        </div>
+    </section>
+
+    <!--Subcribe-->
+    <section>
+        <div class="box--subcribetio--">
+
+            <div class="--Subcribetion--">
+
+                <div class="buttom-subcribeption">
+                    <form class="buttom-subcribeption-">
+                        <label for="" class="-label-you-email-">Your Email</label>
+                        <input type="email" placeholder="Entern your email" class="Enter-your-email">
+                    </form>
+                </div>
+
+                <div class="--buttom-subcribeption">
+                   <div class="--Subcribe--buttom">
+                        <button onclick="Subcribe" class="-Subcribe--buttom--">
+                            <h2>Subcribe  <i class="fa-solid fa-bell"></i></h2>
+                        </button>
+                   </div>
+                </div>
+
+            </div>
 
         </div>
     </section>

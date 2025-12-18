@@ -154,9 +154,9 @@ h2 {
 .btn {
     background-color: #ffffff;
     color: #197D28;
-    padding: 10px 20px;
+    padding: 20px 40px;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 18px;
     margin-top: 20px;
     font-size: bold;
@@ -357,9 +357,9 @@ body {
 /* btn */
 .btn_discount{
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 18px;
     margin-top: 20px;
     font-size: bold;
@@ -388,9 +388,9 @@ body {
 /* btn_buy_now */
 .btn_buy_now{
     color: #197D28;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 18px;
     margin-top: 20px;
     font-size: bold;
@@ -670,9 +670,127 @@ body{
     transition: 1s;
     padding: 5px;
 }
+.box--subcribetio--{
+    display: flex;
+    margin-top: 10px;
+}
+.--Subcribetion--{
+    display: block;
+    margin-top: 10px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+.buttom-subcribeption{
+    display: flex;
+    background-color: #197D28;
+}
+.--buttom-subcribeption{
+    display: flex;
+    background-color: #197D28;
+}
+.buttom-subcribeption-{
+    margin: auto;
+    width: 700px;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    transform: scale();
+}
+.-label-you-email-{
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.Enter-your-email{
+    margin: auto;
+    background-color: #197D28;
+    border-radius: 20px;
+    border-color: #ffffff;
+    color: #ffffff;
+    height: 50px;
+    font-size: 18px;
+    padding: 0 20px;
+    transform: scale(1.0);
+}
+.--Subcribe--buttom{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.-Subcribe--buttom--{
+    width: 50%;
+    width: 700px;
+    color: #ffffff;
+    margin: auto;
+    background-color: #197D28;
+    border-color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.-Subcribe--buttom--:hover{
+    width: 50%;
+    width: 700px;
+    color: #000000;
+    margin: auto;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 1s;
+}
 
 /* archive-product.php */
+/* hero-section-archive */
+.container{
+    display: flex;
+}
+.content{
+    display: block;
+}
+.organic-section {
+    background-color: #1b7f2a; /* green background */
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.organic-circle {
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 4px solid #1b7f2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.organic-circle .fresh {
+    color: #1b7f2a;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.organic-circle .organic {
+    color: #1b7f2a;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 6px 0 0;
+}
+
 /* product-list */
+.pic-girl{
+    width: 20px;
+}
 .product_list{
     gap: 10px;
     display: flex;
@@ -684,8 +802,193 @@ body{
     margin: auto;
 
 }
+.search_product-{
+    display: flex;
+    width: 100%;
+}
+.search_product{
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    width: 78%;
+}
+
 .feature_cart_items{
+    margin-top: 30px;
+}
+.contain{
+    border: #000000 solid 1px;
+    border-radius: 30px;
+    display: flex;
+}
+.input---seach{
+    margin: auto;
+    font-size: 32px;
+}
+.input---seach--{
+    width: 600px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+
+/* page-contact.php */
+/* banner_contact-page */
+/* Banner container */
+.banner-wrapper {
+    position: relative;
+    width: 80%;
     margin-top: 150px;
+    margin: auto;
+}
+
+/* Banner image */
+.banner-img {
+    margin-top: 150px;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+}
+
+/* Profile image container */
+.profile-wrapper {
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+/* Profile image */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+.info_user{
+    text-align: center;
+    margin-top: 70px;
+}
+/* contact_form  */
+.Contact-us-sechtion{
+    display: flex;
+    margin-top: 10px;
+}
+.box-contact-us-sechtion{
+    background-color: #197D28;
+    width: 80%;
+    border-radius: 6px;
+    margin: auto;
+}
+.box---contect-us---{
+    display: flex;
+}
+.---contect-us---{
+    background-color: #197D28;
+    width: 80%;
+    margin: auto;
+    c
+}
+.box-Contact-Us---text{
+    display: flex;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+    border-radius: 6px;
+    
+}
+.Contact-Us---text{
+    display: flex;
+    margin: auto;
+}
+.--Contact-Us---text--{
+    color: #ffffff;
+    font-size: 32px;
+}
+.name-email-jubject-sentmessage{
+    display:block;
+}
+.-content-name-{
+    display: block;
+    /* background-color: #197D28; */
+    margin: auto;
+    width: 80%;
+}
+.content-name-{
+    display: flex;
+    /* background-color: #197D28; */
+    width: 80%;
+    margin: auto;
+    border-radius: 6px;
+}
+.-content-name-form{
+    display: block;
+    margin: auto;
+}
+.--form-contact--{
+    width: 56%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    font-size: 18px;
+}
+.form-contact{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.-sent-message-{
+    display: flex;
+    margin-bottom: 20px;
+}
+.BOX-buttom-{
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+.buttom-sent-massage{
+    margin: auto;
+    width: 75%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 32px;
+    color: #197D28;
+    border-color: #ffffff;
+    transition: 1s;
+    transform: scale();
+}
+.buttom-sent-massage:hover{
+    margin: auto;
+    width: 75%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 32px;
+    color: #197D28;
+    border-color: #ffffff;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.--form-contact--subject{
+    width: 56%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    font-size: 18px;
+    height: 150px;
+
 }
 
 
@@ -730,7 +1033,7 @@ body{
 
 footer{
     background-color: var(--backgroun-color--);
-        width: 80%;
+    width: 80%;
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
@@ -828,160 +1131,64 @@ footer{
 
 
 
-
-
-
-
-
-
-/* .site-header {
-    border-bottom: 1px solid #ddd;
-    background: #ffffff;
-    width: 100%;
-    margin: 0%;
-}
-.header_top {
-   background-color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-} */
-
-/* logo */
-/* .logo img {
-    width: 70px;
-    height: auto;
-} */
-
-/* search */
-/* .search-form {
-    border: black 1px solid;
-    display: flex;
-    align-items: center;
-    background: #ffffff;
-   border-radius: 20px;
-   height: 40px;
-   margin-top: 15px;
-   
-}
-.search-field {
-   
-    border: none;
-    outline: none;
-    background: transparent;
-    width: 500px;
-    font-size: 16px;
-    margin-left: 20px;
-} */
-
-/* icon */
-/* .icon {
-    margin-left: 15px;
-    font-size: 40px;
-    text-decoration: none;
-    margin-top: 15px;
-} */
-
-/* nav */
-/* .nav    {
-    font-size: arial, sans-serif;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.nav ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    padding: 10px 20px;
-    margin: 0;
-    justify-content: space-between;
-    gap: 60px;
-}
-.nav a {
-    text-decoration: none;
-    font-size: 24px;
-    color: #333;
-    text-align: center;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
 }
 
-.nav ul li a:hover {
-    color: #48d41d;
-    
-} */
-
-/* hero_sectio */
-/* .hero_section {
-    background-image: url('../images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    background-color: #197D28;
-    gap: 400px;
-}
-h1{
-    font-size: 65px;
-    font-family: Qwigley, cursive;
-    color: #DA9008;
-}
-h2 {
-    font-family: Aclonica;
-    font-size: 35px;
-}
-.btn {
-    background-color: #ffffff;
-    color: #197D28;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 18px;
-    margin-top: 20px;
-    font-size: bold;
-    border: #000000 solid 1px;
-}
-.btn:hover {
-    background-color: #48d41d;
-} */
-
-/* categories-section */
-/* .categories_title{
-    display: flex;
-    justify-content: space-between;
-}
-.view_more{
-    color: #48d41d;
-    margin-top: 50px;
-} */
-
-/* categories_section */
-/* .categories{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: auto;
-
-}
-.cotegories_cart{
-    border: #d6d1d1 solid 2px;
+.product {
+    background: #fff;
+    padding: 15px;
     border-radius: 10px;
-    background-color: #d6d1d1;
-    
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
-.categories_pic img{
-    width: 200px;
-    height: auto;
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
 }
-.name_fruit{
+
+.category {
+    font-size: 13px;
+    color: #777;
+}
+
+.price {
+    font-weight: bold;
+    color: #1b7f2a;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
     text-align: center;
-    font-size: 20px;
-} */
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.buy {
+    background: #1b7f2a;
+    color: #fff;
+}
+
+.add {
+    background: #e0e0e0;
+}
+
+
+
+
+
+
 
 
 
